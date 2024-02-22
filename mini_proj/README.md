@@ -17,5 +17,5 @@ This simple Python script helps you discover your personality type based on four
 3. Run the script
     python3 mbti_test.py
 
-##Credits
+## Credits
 This MBTI Personality Test is a simple Python implementation inspired by the Myers-Briggs Type Indicator. It was created by Gahyun Song.
