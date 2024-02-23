@@ -17,10 +17,12 @@ This simple Python script helps you discover your personality type based on four
 ### Getting Started
 
 - Move to the directory
-cd mini_proj
+    ```bash
+    cd mini_proj
 
 - Run the script
-python3 mbti_test.py
+  ```bash
+  python3 mbti_test.py
 
 #### Credits
 This MBTI Personality Test is a simple Python implementation inspired by the Myers-Briggs Type Indicator. It was created by Gahyun Song.
@@ -34,10 +36,12 @@ Experience the thrill of the UP&DOWN Number Game! This Python script challenges 
 ### Getting Started
 
 - Move to the directory
-cd mini_proj
+    ```bash
+    cd mini_proj
 
 - Run the script
-python3 updown_num_game.py
+   ```bash
+   python3 updown_num_game.py
 
 #### credits
 The UP&DOWN Number Game is a simple Python implementation created by Gahyun Song.
@@ -53,10 +57,12 @@ Get ready for some fun with the Rock Scissors Paper Game! This Python script let
 ### Getting Started
 
 - Move to the directory
-cd mini_proj
+    ```bash
+    cd mini_proj
 
 - Run the script
-python3 rock_paper_scissors.py
+    ```bash
+    python3 rock_paper_scissors.py
 
 #### credits
 The Rock Scissors Paper Game is a simple Python implementation created by Gahyun Song. 
