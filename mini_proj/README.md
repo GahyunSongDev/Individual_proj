@@ -68,3 +68,41 @@ Get ready for some fun with the Rock Scissors Paper Game! This Python script let
 The Rock Scissors Paper Game is a simple Python implementation created by Gahyun Song. 
 
 Enjoy the game and may the best hand win!
+
+
+## [4] Gold Mining Adventure Game
+
+Embark on an exciting Gold Mining Adventure and navigate through a series of challenges to discover the hidden gold! Follow the correct sequence of directions and make critical decisions to overcome obstacles.
+
+### Getting Started
+
+#### Instructions
+    1. Enter your name to begin the adventure.
+
+    2. Respond to the prompt to decide whether you want to go on the gold mining adventure (YES/NO).
+
+    3. Type the direction you want to move in (Right / Left / Up / Down) and follow the path carefully.
+
+    4. Make strategic choices when faced with challenges such as rivers and mountains.
+
+    5. Reach the final destination with the correct sequence to find the gold.
+
+    6. Enjoy the game and see how much gold you can collect!
+
+#### Features
+    - Engaging storyline with interactive decision-making.
+    - Dynamic challenges and obstacles to test your strategy.
+    - Keep track of the gold you've collected along the way.
+    - Enjoy the thrill of the adventure and the satisfaction of finding gold!
+
+#### How to Run
+- Move to the directory
+    ```bash
+    cd mini_proj
+
+- Run the script
+    ```bash
+    python3 gold_mining_adventure.py
+
+#### credits
+Enjoy the Gold Mining Adventure, and may you strike it rich with gold!
