@@ -119,13 +119,13 @@ This is a simple user authentication system implemented in Python, utilizing the
 ### Usage
 
 1. Key Generation : Before running the script, you need to generate a key for encryption/decryption. Uncomment and run the `writeKey()` function in the script to generate the key and save it as `key.key`.
-```python
-# Uncomment and run this function to generate the key
-# def writeKey():
-#     key = Fernet.generate_key()
-#     with open("key.key", "wb") as key_file:
-#         key_file.write(key)
-# writeKey()
+    ```python
+    # Uncomment and run this function to generate the key
+    # def writeKey():
+    #     key = Fernet.generate_key()
+    #     with open("key.key", "wb") as key_file:
+    #         key_file.write(key)
+    # writeKey()
 
 2.  Sign Up : Run the script and choose the "sign up" option. Enter your name, password, and date of birth when prompted. Your information will be encrypted and saved in the `members.txt` file.
 
