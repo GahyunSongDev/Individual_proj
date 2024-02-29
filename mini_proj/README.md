@@ -106,3 +106,45 @@ Embark on an exciting Gold Mining Adventure and navigate through a series of cha
 
 #### credits
 Enjoy the Gold Mining Adventure, and may you strike it rich with gold!
+
+## [5] User Authentication System with Encryption
+
+This is a simple user authentication system implemented in Python, utilizing the cryptography library for password encryption.
+
+### Requirements
+
+- Python 3 
+- cryptography library (`pip3 install cryptography`)
+
+### Usage
+
+1. Key Generation : Before running the script, you need to generate a key for encryption/decryption. Uncomment and run the `writeKey()` function in the script to generate the key and save it as `key.key`.
+```python
+# Uncomment and run this function to generate the key
+# def writeKey():
+#     key = Fernet.generate_key()
+#     with open("key.key", "wb") as key_file:
+#         key_file.write(key)
+# writeKey()
+
+2.  Sign Up : Run the script and choose the "sign up" option. Enter your name, password, and date of birth when prompted. Your information will be encrypted and saved in the `members.txt` file.
+
+3.  Sign In : Choose the "sign in" option, enter your name, password, and date of birth. The script will decrypt the stored password and verify your credentials.
+
+4.  Forget Username/Password : If you forget your username or password, choose the "forget" option. Enter your date of birth to find your username or enter your username and date of birth (comma-separated) to find your password.
+
+### Script Structure
+
+- `writeKey()`: Generates a key for encryption/decryption and saves it as `key.key`.
+- `loadKey()`: Loads the key from the `key.key` file.
+- `encrypt_info(info)`: Encrypts the provided information using the loaded key.
+- `decrypt_info(cipher_info)`: Decrypts the provided encrypted information using the loaded key.
+- `signUp()`: Registers a new user by taking their name, password, and date of birth.
+- `signIn()`: Authenticates a user by verifying their name, password, and date of birth.
+- `forgetName(a)`: Finds and displays the username based on the provided date of birth.
+- `forgetPwd(b)`: Finds and displays the decrypted password based on the provided username and date of birth.
+
+### Notes
+
+- Ensure you have the cryptography library installed before running the script (`pip3 install cryptography`).
+- It is crucial to keep the `key.key` file secure, as it is used for encryption and decryption.
