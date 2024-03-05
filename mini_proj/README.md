@@ -158,10 +158,9 @@ This Python script implements a simple dice rolling game where players take turn
 ### Getting Started
 
 #### Usage
-
-Run the main script to start the dice rolling game.
-    ```bash
-    cd rolling_dice_gmae.py
+- Run the script 
+  ```bash
+  python3 dice_rolling_game.py
 
 #### Game Rules
 -   The number of players is determined at the beginning of the game (2 to 4 players).
