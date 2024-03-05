@@ -195,3 +195,28 @@ This Python script allows you to create a Mad Libs story by replacing placeholde
 -   User Input: Enter words to replace each placeholder when prompted. The script uses an OrderedDict to maintain the order of placeholders and removes duplicates.
 
 -   Generated Story: The script generates a new story by replacing the placeholders with the user-input words. The updated story is displayed, and it's saved to a file (story_replaced.txt).
+
+
+
+
+## [8] Math Challenge Game
+
+### Introduction
+
+A simple Python console-based math challenge game that tests your arithmetic skills. The game randomly generates math problems with addition, subtraction, and multiplication operations.
+
+#### How to Play
+
+1. Run the script in a Python environment.
+2. Choose to start the math challenge by entering 'y' when prompted.
+3. Solve the math problems presented to you.
+4. For each problem, input your answer.
+5. The game will provide feedback on whether your answer is correct or not.
+6. Complete all the problems to finish the challenge.
+7. The total time taken, number of incorrect answers, and your score will be displayed at the end.
+
+#### Features
+
+- Randomly generated math problems.
+- Adjustable difficulty by changing the range of numbers.
+- Timer to track the total time taken to complete the cha
