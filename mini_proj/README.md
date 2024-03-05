@@ -174,3 +174,24 @@ This Python script implements a simple dice rolling game where players take turn
 3. Initialize scores for each player.
 4. Main game loop iterating through each player's turn.
 5. Display the current scores and check for a winner.
+
+## [7] Mad Libs Generator
+
+### Introduction
+This Python script allows you to create a Mad Libs story by replacing placeholders in a given story template. The user is prompted to input words to fill in the placeholders, resulting in a customized and often humorous narrative.
+
+### Getting Started
+
+#### Usage
+- Run the script 
+  ```bash
+  python3 madlibs_generator.py
+
+### How to use
+-   Story Template: Prepare a text file (before_story.txt) with placeholders enclosed in square brackets, such as [Adjective], [Noun], or [Verb].
+
+-   Run the Script: Execute the Python script (madlibs_generator.py). The script reads the story template and identifies the placeholders.- 
+
+-   User Input: Enter words to replace each placeholder when prompted. The script uses an OrderedDict to maintain the order of placeholders and removes duplicates.
+
+-   Generated Story: The script generates a new story by replacing the placeholders with the user-input words. The updated story is displayed, and it's saved to a file (story_replaced.txt).
