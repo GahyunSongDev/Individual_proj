@@ -169,10 +169,6 @@ Run the main script to start the dice rolling game.
 -   Rolling a 1 resets the player's score to 0.
 -   The game continues until one player reaches a randomly determined winning score.
 
-#### Code Overview
-roll() : 
-Simulate rolling a six-sided die and return the result.
-
 #### Main Game Loop
 1. Input validation for the number of players.
 2. Set a random winning score for the round.
