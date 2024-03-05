@@ -148,3 +148,34 @@ This is a simple user authentication system implemented in Python, utilizing the
 
 - Ensure you have the cryptography library installed before running the script (`pip3 install cryptography`).
 - It is crucial to keep the `key.key` file secure, as it is used for encryption and decryption.
+
+## [6] Dice Rolling Game
+
+### Introduction
+
+This Python script implements a simple dice rolling game where players take turns rolling a six-sided die to accumulate scores. The goal is to reach a randomly determined winning score before the other players.
+
+### Getting Started
+
+#### Usage
+
+Run the main script to start the dice rolling game.
+    ```bash
+    cd dice_rolling_game.py
+
+#### Game Rules
+-   The number of players is determined at the beginning of the game (2 to 4 players).
+-   Each player takes turns rolling a six-sided die.
+-   Rolling a 1 resets the player's score to 0.
+-   The game continues until one player reaches a randomly determined winning score.
+
+#### Code Overview
+roll() : 
+Simulate rolling a six-sided die and return the result.
+
+#### Main Game Loop
+1. Input validation for the number of players.
+2. Set a random winning score for the round.
+3. Initialize scores for each player.
+4. Main game loop iterating through each player's turn.
+5. Display the current scores and check for a winner.
