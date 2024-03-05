@@ -32,11 +32,10 @@ def decrypt_info(cipher_info):
         print(f"Decryption error: {e}")
         return None
     
-# debugging for testing encryption/decryption   
+#debugging for testing encryption/decryption   
 # encrypted_data = encrypt_info("song")
 # print(f"Encrypted Data: {encrypted_data}")
-
-# # decrypt_info 함수를 사용하여 복호화
+# decrypt_info
 # decrypted_data = decrypt_info(encrypted_data)
 # print(f"Decrypted Data: {decrypted_data}")
 

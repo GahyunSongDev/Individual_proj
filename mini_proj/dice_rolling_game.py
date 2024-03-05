@@ -22,7 +22,7 @@ while True:
     else :
         print("\nError! you typed the invalid input.\n")
 
-win_to_score = random.randint(10, 11)
+win_to_score = random.randint(10, 100)
 print("In this round, the goal score is", win_to_score)
 players_score = [0 for _ in range(players)] # ex ) players_score = [0, 0, 0, 0] if players are 4.
 
@@ -65,5 +65,3 @@ while max(players_score) < win_to_score:
             winner_found = True
             break
     
-    if winner_found:
-        break
