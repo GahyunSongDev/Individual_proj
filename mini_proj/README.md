@@ -227,7 +227,7 @@ A simple Python console-based math challenge game that tests your arithmetic ski
 
 This is a simple text-based slot machine game implemented in Python.
 
-### Overview
+#### Overview
 
 The Slot Machine game consists of the following components:
 
@@ -235,7 +235,7 @@ The Slot Machine game consists of the following components:
 
 - **Main Program (main())**: Implements the main game loop, allowing the player to deposit money, place bets, spin the slot machine, and see the results.
 
-### How to Play
+#### How to Play
 
 1. Run the `slot_machine.py` script using a Python interpreter.
 
@@ -252,7 +252,7 @@ The Slot Machine game consists of the following components:
 
 6. Continue playing or quit as desired.
 
-### Game Rules
+#### Game Rules
 
 - **Jackpot**: If all three reels show the same item, you win $100 times the bet amount.
 
