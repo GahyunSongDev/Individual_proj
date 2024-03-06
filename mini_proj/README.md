@@ -219,4 +219,4 @@ A simple Python console-based math challenge game that tests your arithmetic ski
 
 - Randomly generated math problems.
 - Adjustable difficulty by changing the range of numbers.
-- Timer to track the total time taken to complete the cha
+- Timer to track the total time taken to complete the challenge
