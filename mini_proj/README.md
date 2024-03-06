@@ -220,3 +220,42 @@ A simple Python console-based math challenge game that tests your arithmetic ski
 - Randomly generated math problems.
 - Adjustable difficulty by changing the range of numbers.
 - Timer to track the total time taken to complete the challenge
+
+## [9] Slot Machine Game
+
+### Introduction
+
+This is a simple text-based slot machine game implemented in Python.
+
+### Overview
+
+The Slot Machine game consists of the following components:
+
+- **Slotmachine Class**: Defines the slot machine with methods for spinning the reels and calculating payouts.
+
+- **Main Program (main())**: Implements the main game loop, allowing the player to deposit money, place bets, spin the slot machine, and see the results.
+
+### How to Play
+
+1. Run the `slot_machine.py` script using a Python interpreter.
+
+2. Upon starting, you will be prompted to deposit money. Type the amount you want to deposit (type 'q' to quit).
+
+3. Choose the amount you want to bet for the current game: $5, $50, or $100.
+    -> If you bet $100 and win, you earn x3 to the winning money.
+    -> If you bet $50 and win, you earn x2 times to the winning money.
+    -> If you bet $5 and win, you earn x1 times to the winning money.
+
+4. The slot machine will spin, and the result will be displayed.
+
+5. If you win, your balance will be updated accordingly.
+
+6. Continue playing or quit as desired.
+
+### Game Rules
+
+- **Jackpot**: If all three reels show the same item, you win $100 times the bet amount.
+
+- **Two of a Kind**: If two reels show the same item, you win $20 times the bet amount.
+
+- **No Win**: If there is no match, no money is won.
