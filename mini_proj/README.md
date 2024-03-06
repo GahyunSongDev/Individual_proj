@@ -242,9 +242,9 @@ The Slot Machine game consists of the following components:
 2. Upon starting, you will be prompted to deposit money. Type the amount you want to deposit (type 'q' to quit).
 
 3. Choose the amount you want to bet for the current game: $5, $50, or $100.
-    -> If you bet $100 and win, you earn x3 to the winning money.
-    -> If you bet $50 and win, you earn x2 times to the winning money.
-    -> If you bet $5 and win, you earn x1 times to the winning money.
+- If you bet $100 and win, you earn x3 to the winning money.
+- If you bet $50 and win, you earn x2 times to the winning money.
+- If you bet $5 and win, you earn x1 times to the winning money.
 
 4. The slot machine will spin, and the result will be displayed.
 
