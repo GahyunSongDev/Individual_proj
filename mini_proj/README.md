@@ -277,7 +277,7 @@ This is a simple implementation of the classic Pong game using the Turtle graphi
 - Python 3.x
 - Turtle graphics library
 
-### How to Run
+#### How to Run
 1. Install Python on your machine if not already installed.
 2. Open a terminal or command prompt.
 3. Navigate to the directory containing the script.
@@ -301,6 +301,3 @@ This is a simple implementation of the classic Pong game using the Turtle graphi
 
 - **Exit Game:** Q (during gameplay)
 - **Stop Playing:** P (after the game ends)
-
-#### Acknowledgments
-This Pong game was created as a mini project by Gahyun Song. It serves as a simple example of game development using Python and the Turtle graphics library.
