@@ -1,4 +1,4 @@
-import turtle, time, sys
+import turtle, time
 
 # Create a screen 
 def __init_game__():
