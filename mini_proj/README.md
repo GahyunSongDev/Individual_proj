@@ -259,3 +259,48 @@ The Slot Machine game consists of the following components:
 - **Two of a Kind**: If two reels show the same item, you win $20 times the bet amount.
 
 - **No Win**: If there is no match, no money is won.
+
+## [10] Pong Game - Mini Project by Gahyun Song
+
+### Introduction
+This is a simple implementation of the classic Pong game using the Turtle graphics library in Python. The game features two player bars, a ball, and keeps track of scores for each player. The objective is to bounce the ball past the opponent's player bar to score points.
+
+#### Features
+- **Two-player mode**
+- **Player 1 controls:** W (up), S (down)
+- **Player 2 controls:** Arrow Up (up), Arrow Down (down)
+- **Automatic ball speed increase every 1 minute**
+- **Display of scores for each player**
+- **Option to play again or stop playing after the game ends**
+
+### Dependencies
+- Python 3.x
+- Turtle graphics library
+
+### How to Run
+1. Install Python on your machine if not already installed.
+2. Open a terminal or command prompt.
+3. Navigate to the directory containing the script.
+4. Run the script by entering `python3 pong_game.py`
+
+#### How to Play
+1. Run the Python script.
+2. Use the specified keys to control the player bars.
+3. Bounce the ball past your opponent's bar to score points.
+4. The game ends when you decide to stop playing or close the window.
+5. After the game ends, you can choose to play again or exit.
+
+#### Instructions
+- **Player 1:**
+  - Move Up: W
+  - Move Down: S
+
+- **Player 2:**
+  - Move Up: Arrow Up
+  - Move Down: Arrow Down
+
+- **Exit Game:** Q (during gameplay)
+- **Stop Playing:** P (after the game ends)
+
+#### Acknowledgments
+This Pong game was created as a mini project by Gahyun Song. It serves as a simple example of game development using Python and the Turtle graphics library.
