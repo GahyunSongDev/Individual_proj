@@ -1,13 +1,5 @@
 import turtle, time
 
-# Create a screen 
-def __init_game__():
-    turtle.Screen()
-    turtle.bgcolor("dark blue")
-    turtle.setup(height = 800, width = 700)
-    turtle.title("pong game - mini project by gahyun song")
-    turtle.tracer(0)
-
 # Create a player bar - left side
 player_1 = turtle.Turtle()
 player_1.shape("square")
@@ -41,27 +33,32 @@ score_player_2 = 0
 start_time = time.time()
 speed_increase_time = start_time + 60  # Increase speed every 1 minute
 
+# Create a screen 
+def __init_game__():
+    turtle.Screen()
+    turtle.bgcolor("dark blue")
+    turtle.setup(height = 800, width = 700)
+    turtle.title("pong game - mini project by gahyun song")
+    turtle.tracer(0)
+
 # function for moving a bar up and down for player 1 and 2
 def bar_up_p1():
     up = player_1.ycor() + 25
     if up < 350:
         player_1.sety(up)
-
 def bar_down_p1():
     down = player_1.ycor() - 25
     if down > -350:
         player_1.sety(down)
-
 def bar_up_p2():
     up = player_2.ycor() + 25
     if up < 350:
         player_2.sety(up)
-
 def bar_down_p2():
     down = player_2.ycor() - 25
     if down > -350:
         player_2.sety(down)
-
+        
 def exit_game():
     turtle.clear()  # Clear the existing text
     turtle.hideturtle()
