@@ -265,6 +265,10 @@ The Slot Machine game consists of the following components:
 ### Introduction
 This is a simple implementation of the classic Pong game using the Turtle graphics library in Python. The game features two player bars, a ball, and keeps track of scores for each player. The objective is to bounce the ball past the opponent's player bar to score points.
 
+#### Dependencies
+- Python 3.x
+- Turtle graphics library
+
 #### Features
 - **Two-player mode**
 - **Player 1 controls:** W (up), S (down)
@@ -272,10 +276,6 @@ This is a simple implementation of the classic Pong game using the Turtle graphi
 - **Automatic ball speed increase every 1 minute**
 - **Display of scores for each player**
 - **Option to play again or stop playing after the game ends**
-
-### Dependencies
-- Python 3.x
-- Turtle graphics library
 
 #### How to Run
 1. Install Python on your machine if not already installed.
